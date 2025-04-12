@@ -1,0 +1,115 @@
+.divUm {
+    font-size: 40px;
+    background-color:#696969;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1E3A8A;
+    width: 90%;       /* ou algo como 600px */
+    height: auto;     /* ou uma altura fixa tipo 300px */
+    margin: 20px auto; /* centraliza a div na horizontal */
+    padding: 20px;  
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+.listas {
+   
+    background-color: #C0C0C0 ;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    text-align: justify;
+    color: #1E3A8A;
+    width: 50%;       /* ou algo como 600px */
+    height: auto;     /* ou uma altura fixa tipo 300px */
+    margin: 20px auto; /* centraliza a div na horizontal */
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+
+}
+
+.formulario{
+
+    background-color: #C0C0C0 ;
+    padding: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1E3A8A;
+    width: 50%;       /* ou algo como 600px */
+    height: auto;     /* ou uma altura fixa tipo 300px */
+    margin: 20px auto; /* centraliza a div na horizontal */
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    
+}
+
+.imagens{
+    background-color: #C0C0C0 ;
+    padding: 40px;
+    font-size: 25px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #1E3A8A;
+    width: 50%;       /* ou algo como 600px */
+    height: auto;     /* ou uma altura fixa tipo 300px */
+    margin: 20px auto; /* centraliza a div na horizontal */
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+   
+
+
+}
+
+#fomulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+
+       
+}
+p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+       
+
+
+}
+
+input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 4px;
+    border: #C0C0C0;
+}
+
+button{
+   
+    width: 20%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #2C3E50;
+    color: azure;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+button:hover{
+    transform: scale(1.1); /* Aumenta a foto em 20% */
+    transform-origin: center; /* Faz a foto aumentar a partir do centro */
+    z-index: 1;
+    background-color:#696969; /* Garante
+
+}
